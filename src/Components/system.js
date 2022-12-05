@@ -26,7 +26,8 @@ function System() {
     axios({
       method: 'post',
       // url: 'http://127.0.0.1:8000/',
-      url: 'https://hindi-qa.herokuapp.com/',
+//       url: 'https://hindi-qa.herokuapp.com/',
+      url : 'https://web-production-c707.up.railway.app/',
       data: formData,
       config: config
     })
